@@ -5,9 +5,9 @@ try {
     let intArray = [1, 3, 5];
 
     intArray.forEach(x => console.log(x));
-}catch(error) {
+} catch(error) {
     console.error(error);
-}finally{
+} finally{
     console.log(helloWorldMessage);
 }
 
